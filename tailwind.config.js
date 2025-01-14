@@ -4,7 +4,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        questrial: ["Questrial", "serif"], //
+        questrial: ["Questrial", "serif"],
+      },
+      colors: {
+        bgcolor: "#FDFAEB",
       },
     },
   },
