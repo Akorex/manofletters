@@ -10,19 +10,21 @@ const Hero = () => {
           I explore the intersection of nature and technology
         </h1>
         {/* More About Me Links */}
-        <ul className="pl-32 text-2xl text-gray-600">
+        <ul className="pl-32 text-2xl text-gray-600 hover:cursor-pointer font-mono space-y-4 tracking-widest">
           <li>
             <a href="#">Get to know me</a>
+            <span className="ml-2">-&gt;</span>
           </li>
           <li>
             <a href="#">Follow my Newsletter</a>
+            <span className="ml-2">-&gt;</span>
           </li>
         </ul>
       </div>
 
       {/* Image Section */}
       <div className="flex-shrink-0">
-        <img src={image} alt="Cover" className="w-96 h-96 object-cover" />
+        <img src={image} alt="Cover" className="w-96 h-96 pl-44 pt-10" />
       </div>
     </div>
   );
