@@ -6,11 +6,11 @@ const Hero = () => {
     <div className="flex items-start">
       {/* Text Section */}
       <div className="pr-10">
-        <h1 className="pb-10 pt-20 pr-32 font-medium text-7xl">
+        <h1 className="pb-10 pt-20 pl-32 font-medium text-7xl">
           I explore the intersection of nature and technology
         </h1>
         {/* More About Me Links */}
-        <ul>
+        <ul className="pl-32 text-2xl text-gray-600">
           <li>
             <a href="#">Get to know me</a>
           </li>
