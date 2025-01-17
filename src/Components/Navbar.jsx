@@ -6,16 +6,36 @@ const Navbar = () => {
       <nav className="flex items-center justify-between pl-11 pr-12 pt-3">
         {/*Logo */}
         <div className="flex items-center font-bold text-2xl">
-          <h1>ManofLetters</h1>
+          <h1>manofletters</h1>
         </div>
         {/*Navigation Links  */}
         <ul className="hidden flex-1 md:flex gap-4 text-gray-600 justify-end  font-semibold">
-          <li>find the bird</li>
-          <li>writing</li>
-          <li>about</li>
-          <li>photos</li>
-          <li>machine learning</li>
-          <li>blog</li>
+          <a href="#">
+            {" "}
+            <li>writing</li>
+          </a>
+          <a href="#">
+            {" "}
+            <li>about</li>
+          </a>
+          <a href="#">
+            {" "}
+            <li>about</li>
+          </a>
+
+          <a href="#">
+            {" "}
+            <li>photos</li>
+          </a>
+          <a href="#">
+            {" "}
+            <li>machine learning</li>
+          </a>
+
+          <a href="#">
+            {" "}
+            <li>blog</li>
+          </a>
         </ul>
       </nav>
     </div>

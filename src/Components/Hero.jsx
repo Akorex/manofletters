@@ -16,7 +16,7 @@ const Hero = () => {
             <span className="ml-2">-&gt;</span>
           </li>
           <li>
-            <a href="#">Follow my Newsletter</a>
+            <a href="#">Follow my newsletter</a>
             <span className="ml-2">-&gt;</span>
           </li>
         </ul>
@@ -24,7 +24,11 @@ const Hero = () => {
 
       {/* Image Section */}
       <div className="flex-shrink-0">
-        <img src={image} alt="Cover" className="w-96 h-96 pl-44 pt-10" />
+        <img
+          src={image}
+          alt="Cover"
+          className="w-96 h-120 pt-28 pr-12 rounded-lg object-cover "
+        />
       </div>
     </div>
   );
