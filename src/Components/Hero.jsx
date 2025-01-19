@@ -8,7 +8,7 @@ const Hero = () => {
       {/* Text Section */}
       <div className="pr-10">
         <h1 className="pb-10 pt-20 pl-32 font-medium text-7xl">
-          I explore the intersection of nature and technology
+          I explore the world through the lens of AI, Software and Technology.
         </h1>
         {/* More About Me Links */}
         <ul className="pl-32 text-2xl text-gray-600 hover:cursor-pointer font-mono space-y-4 tracking-widest">
