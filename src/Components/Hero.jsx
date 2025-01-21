@@ -13,7 +13,7 @@ const Hero = () => {
         {/* More About Me Links */}
         <ul className="pl-32 text-2xl text-gray-600 hover:cursor-pointer font-mono space-y-4 tracking-widest">
           <li>
-            <Link to="/know">Get to know me</Link>
+            <Link to="/about">Get to know me</Link>
             <span className="ml-2">-&gt;</span>
           </li>
           <li>
