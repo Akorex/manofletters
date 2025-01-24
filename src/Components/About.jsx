@@ -8,7 +8,7 @@ const About = () => {
           About
         </h1>
       </div>
-      <div className="pb-10 pt-3 pl-8 text-4xl">
+      <div className="pb-10 pt-3 pl-8 text-4xl ">
         <p>Hello, I'm Akorede Adewole.</p>
         <p>Software Engineer</p>
       </div>
