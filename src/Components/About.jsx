@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiKaggle, SiUpwork } from "react-icons/si";
 
 const About = () => {
   return (
@@ -34,6 +35,25 @@ const About = () => {
           className="hover:text-blue-700 transition-colors duration-200"
         >
           <FaLinkedin />
+        </a>
+        {/* Kaggle Icon */}
+        <a
+          href="https://kaggle.com/your-kaggle-profile"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-blue-500 transition-colors duration-200"
+        >
+          <SiKaggle />
+        </a>
+
+        {/* Upwork Icon */}
+        <a
+          href="https://upwork.com/freelancers/your-upwork-profile"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-green-500 transition-colors duration-200"
+        >
+          <SiUpwork />
         </a>
       </div>
     </div>
