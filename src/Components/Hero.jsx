@@ -7,9 +7,12 @@ const Hero = () => {
     <div className="flex items-center md:items-start p-6 md:p-16 flex-col-reverse md:flex-row ">
       {/* Text Section */}
       <div className="text-center md:text-left md:pr-10">
-        <h1 className="pb-10 pt-6 pl-20 font-medium text-6xl">
-          I explore the world <br />
-          through the lens of AI, Software and Technology.
+        <h1 className="pb-10 pt-6 pl-20 font-medium text-4xl">
+          Hello, I'm Akorede Adewole
+          <br />
+          Software Engineer{" "}
+          <span className="font-extrabold text-2xl">&mdash;&mdash;</span>Backend
+          & Machine Learning.
         </h1>
         {/* More About Me Links */}
         <ul className="pl-20 text-xl md:text-2xl text-gray-600 hover:cursor-pointer font-mono space-y-4 tracking-widest">
