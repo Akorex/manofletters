@@ -21,7 +21,7 @@ const About = () => {
       {/* Social Links */}
       <div className="pl-8 flex gap-6 items-center text-3xl text-gray-700">
         <a
-          href="https://github.com/your-github-profile"
+          href="https://github.com/Akorex"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-black transition-colors duration-200"
@@ -29,7 +29,7 @@ const About = () => {
           <FaGithub />
         </a>
         <a
-          href="https://linkedin.com/in/your-linkedin-profile"
+          href="https://www.linkedin.com/in/adewole-akorede/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-700 transition-colors duration-200"
@@ -38,7 +38,7 @@ const About = () => {
         </a>
         {/* Kaggle Icon */}
         <a
-          href="https://kaggle.com/your-kaggle-profile"
+          href="https://www.kaggle.com/adewoleakorede"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-500 transition-colors duration-200"
@@ -48,7 +48,7 @@ const About = () => {
 
         {/* Upwork Icon */}
         <a
-          href="https://upwork.com/freelancers/your-upwork-profile"
+          href="https://www.upwork.com/freelancers/~01c049794509934df1"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-green-500 transition-colors duration-200"

@@ -11,7 +11,7 @@ const Hero = () => {
           Hello, I'm Akorede Adewole
           <br />
           Software Engineer{" "}
-          <span className="font-extrabold text-2xl">&mdash;&mdash;</span>Backend
+          <span className="font-extrabold text-2xl">&nbsp;—&nbsp;</span>Backend
           & Machine Learning.
         </h1>
         <p>
