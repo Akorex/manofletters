@@ -49,7 +49,7 @@ const Navbar = () => {
 
       {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <div className="md:hidden bg-gray-100 p-4">
+        <div className="md:hidden bg-bgcolor p-4">
           <ul className="flex flex-col gap-3 text-gray-600 font-semibold">
             <Link
               to="/writing"
@@ -94,3 +94,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+``;
