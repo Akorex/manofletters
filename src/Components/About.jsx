@@ -1,15 +1,17 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiKaggle, SiUpwork } from "react-icons/si";
+import Brilstack from "../assets/Brilstack.png";
+import Hemify from "../assets/Hemify.png";
+import iQube from "../assets/iqube.png";
+import Airol from "../assets/Airol.jpg";
 
 const About = () => {
   return (
     <div className="bg-bgcolor min-h-screen flex flex-col px-6 py-12 md:px-24">
       {/* Header */}
       <div className="max-w-4xl">
-        <h1 className="text-4xl md:text-4xl font-bold text-gray-900 pl-8 pt-12">
-          About
-        </h1>
+        <h1 className="pb-10 pt-6 pl-8 font-bold text-5xl ">About</h1>
       </div>
 
       {/* Introduction */}
@@ -57,9 +59,23 @@ const About = () => {
         >
           <SiUpwork />
         </a>
-        {/* Experience */}
-        <div></div>
       </div>
+      {/* Experience */}
+      <div className="pt-10">
+        <h1 className="pb-10 pt-6 pl-20 font-bold text-5xl ">Experience</h1>
+        <div className="flex items-center ">
+          <div className="flex items-center space-x-4">
+            <img
+              src={Brilstack}
+              alt="Brilstack Logo"
+              className="w-32 h-12 mr-52"
+            />
+            <h3 className="text-2xl font-bold">Brilstack</h3>
+          </div>
+        </div>
+      </div>
+      {/* Vertical Line */}
+      <div className="h-40 w-px bg-gray-950 ml-96"></div>
     </div>
   );
 };
