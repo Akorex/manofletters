@@ -4,7 +4,7 @@ import { SiKaggle, SiUpwork } from "react-icons/si";
 
 const About = () => {
   return (
-    <div className="bg-[#fdf9f3] min-h-screen flex flex-col px-6 py-12 md:px-24">
+    <div className="bg-bgcolor min-h-screen flex flex-col px-6 py-12 md:px-24">
       {/* Header */}
       <div className="max-w-4xl">
         <h1 className="text-4xl md:text-4xl font-bold text-gray-900 pl-8 pt-12">
@@ -57,6 +57,8 @@ const About = () => {
         >
           <SiUpwork />
         </a>
+        {/* Experience */}
+        <div></div>
       </div>
     </div>
   );
