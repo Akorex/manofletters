@@ -20,6 +20,7 @@ const About = () => {
 
       {/* Social Links */}
       <div className="pl-8 flex gap-6 items-center text-3xl text-gray-700">
+        {/* Github Icon */}
         <a
           href="https://github.com/Akorex"
           target="_blank"
@@ -28,6 +29,7 @@ const About = () => {
         >
           <FaGithub />
         </a>
+        {/*  LinkedIn Icon */}
         <a
           href="https://www.linkedin.com/in/adewole-akorede/"
           target="_blank"
