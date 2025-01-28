@@ -97,7 +97,7 @@ const About = () => {
         {/* Vertical Line and Text Container */}
         <div className="flex items-center mt-0 space-x-8 pl-80">
           {/* Vertical Line */}
-          <div className="h-32 w-px bg-gray-950"></div>
+          <div className="h-52 w-px bg-gray-950"></div>
 
           {/* Experience Text */}
           <div className="font-semibold leading-7">
@@ -113,6 +113,31 @@ const About = () => {
             <p>
               Facilitated user interactions with the existing APIs by debugging,
               updating, testing endpoints, <br /> and performing code reviews.
+            </p>
+          </div>
+        </div>
+        {/*IQube labs Logo and Name */}
+        <div className="flex items-center pl-8">
+          <div className="flex items-center ">
+            <img src={iQube} alt="Hemify Logo" className="w-14 h-7 mr-52" />
+            <h3 className="text-2xl font-bold">iQube Labs</h3>
+          </div>
+        </div>
+        {/* Vertical Line and Text Container */}
+        <div className="flex items-center mt-0 space-x-8 pl-80">
+          {/* Vertical Line */}
+          <div className="h-32 w-px bg-gray-950"></div>
+
+          {/* Experience Text */}
+          <div className="font-semibold leading-7">
+            <p>Built a generative language models corpus created in-house.</p>
+            <p>
+              Built a simple Trello API Clone with focus on authentication,
+              Google Oauth, and CRUD operations.
+            </p>
+            <p>
+              Collaborated with the front-end team to implement new features and
+              resolve bugs within tight deadlines.
             </p>
           </div>
         </div>
