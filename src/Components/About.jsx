@@ -130,7 +130,7 @@ const About = () => {
         {/* Vertical Line and Text Container */}
         <div className="flex items-center mt-0 space-x-8 pl-80">
           {/* Vertical Line */}
-          <div className="h-36 w-px bg-gray-950"></div>
+          <div className="h-36  w-px bg-gray-950"></div>
 
           {/* Experience Text */}
           <div className="font-semibold leading-7">
