@@ -108,11 +108,11 @@ const About = () => {
               <img
                 src={job.logo}
                 alt={`${job.name} Logo`}
-                className="w-14 h-7 mr-20"
+                className="w-14 h-7 mr-1"
               />
               <h3 className="text-2xl font-bold">{job.name}</h3>
             </div>
-            <div className="flex items-center mt-4 mb-4 space-x-8 pl-48">
+            <div className="flex items-center mt-4 mb-4 space-x-8 pl-28">
               {/* Vertical Line with Bubbles */}
               <div className="relative flex flex-col items-center">
                 {/* Top Bubble */}
