@@ -89,6 +89,7 @@ const About = () => {
             <p>Led the migration of critical data.</p>
           </div>
         </div>
+
         {/*Hemify Logo and Name */}
         <div className="flex items-center pl-8">
           <div className="flex items-center ">
@@ -118,17 +119,18 @@ const About = () => {
             </p>
           </div>
         </div>
+
         {/*IQube labs Logo and Name */}
         <div className="flex items-center pl-8">
           <div className="flex items-center ">
-            <img src={iQube} alt="Hemify Logo" className="w-14 h-7 mr-52" />
+            <img src={iQube} alt="Hemify Logo" className="w-20 h-10 mr-52" />
             <h3 className="text-2xl font-bold">iQube Labs</h3>
           </div>
         </div>
         {/* Vertical Line and Text Container */}
         <div className="flex items-center mt-0 space-x-8 pl-80">
           {/* Vertical Line */}
-          <div className="h-32 w-px bg-gray-950"></div>
+          <div className="h-36 w-px bg-gray-950"></div>
 
           {/* Experience Text */}
           <div className="font-semibold leading-7">
@@ -143,10 +145,11 @@ const About = () => {
             </p>
           </div>
         </div>
+
         {/*Airol Logo and Name */}
         <div className="flex items-center pl-8">
           <div className="flex items-center ">
-            <img src={Airol} alt="Airol Logo" className="w-14 h-7 mr-52" />
+            <img src={Airol} alt="Airol Logo" className="w-16 h-10 mr-52" />
             <h3 className="text-2xl font-bold">Airol</h3>
           </div>
         </div>
