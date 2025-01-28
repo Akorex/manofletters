@@ -65,18 +65,18 @@ const About = () => {
         <h1 className="pb-10 pt-6 pl-8 font-bold text-5xl">Experience </h1>
 
         {/* Company Name and Logo */}
-        <div className="flex items-center">
-          <div className="flex items-center space-x-4">
+        <div className="flex items-center pl-8">
+          <div className="flex items-center ">
             <img
               src={Brilstack}
               alt="Brilstack Logo"
-              className="w-32 h-12 mr-52"
+              className="w-14 h-7 mr-52"
             />
             <h3 className="text-2xl font-bold">Brilstack</h3>
           </div>
         </div>
         {/* Vertical Line and Text Container */}
-        <div className="flex items-center mt-8 space-x-8 pl-96">
+        <div className="flex items-center mt-0 space-x-8 pl-80">
           {/* Vertical Line */}
           <div className="h-32 w-px bg-gray-950"></div>
 
