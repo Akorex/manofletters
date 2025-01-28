@@ -62,8 +62,10 @@ const About = () => {
       </div>
       {/* Experience */}
       <div className="pt-10">
-        <h1 className="pb-10 pt-6 pl-20 font-bold text-5xl ">Experience</h1>
-        <div className="flex items-center ">
+        <h1 className="pb-10 pt-6 pl-8 font-bold text-5xl">Experience </h1>
+
+        {/* Company Name and Logo */}
+        <div className="flex items-center">
           <div className="flex items-center space-x-4">
             <img
               src={Brilstack}
@@ -73,9 +75,19 @@ const About = () => {
             <h3 className="text-2xl font-bold">Brilstack</h3>
           </div>
         </div>
+        {/* Vertical Line and Text Container */}
+        <div className="flex items-center mt-8 space-x-8 pl-96">
+          {/* Vertical Line */}
+          <div className="h-32 w-px bg-gray-950"></div>
+
+          {/* Experience Text */}
+          <div className="font-semibold leading-7">
+            <p>Designed and implemented a scalable employee payroll system</p>
+            <p>Engineered and managed a robust wallet system</p>
+            <p>Led the migration of critical data</p>
+          </div>
+        </div>
       </div>
-      {/* Vertical Line */}
-      <div className="h-40 w-px bg-gray-950 ml-96"></div>
     </div>
   );
 };
