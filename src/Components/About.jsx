@@ -64,7 +64,7 @@ const About = () => {
       <div className="pt-10">
         <h1 className="pb-10 pt-6 pl-8 font-bold text-5xl">Experience </h1>
 
-        {/* Company Name and Logo */}
+        {/* Brilstack Name and Logo */}
         <div className="flex items-center pl-8">
           <div className="flex items-center ">
             <img
@@ -82,9 +82,38 @@ const About = () => {
 
           {/* Experience Text */}
           <div className="font-semibold leading-7">
-            <p>Designed and implemented a scalable employee payroll system</p>
-            <p>Engineered and managed a robust wallet system</p>
-            <p>Led the migration of critical data</p>
+            <p>Designed and implemented a scalable employee payroll system.</p>
+            <p>Engineered and managed a robust wallet system.</p>
+            <p>Led the migration of critical data.</p>
+          </div>
+        </div>
+        {/*Hemify Logo and Name */}
+        <div className="flex items-center pl-8">
+          <div className="flex items-center ">
+            <img src={Hemify} alt="Hemify Logo" className="w-14 h-7 mr-52" />
+            <h3 className="text-2xl font-bold">Hemify</h3>
+          </div>
+        </div>
+        {/* Vertical Line and Text Container */}
+        <div className="flex items-center mt-0 space-x-8 pl-80">
+          {/* Vertical Line */}
+          <div className="h-32 w-px bg-gray-950"></div>
+
+          {/* Experience Text */}
+          <div className="font-semibold leading-7">
+            <p>
+              Orchestrated the backend development for a platform which allows
+              users to stake future events.
+            </p>
+            <p>
+              Developed the REST APIs, managed the database migration,
+              deployment to production and <br /> maintaining API
+              documentations.
+            </p>
+            <p>
+              Facilitated user interactions with the existing APIs by debugging,
+              updating, testing endpoints, <br /> and performing code reviews.
+            </p>
           </div>
         </div>
       </div>
