@@ -109,7 +109,7 @@ const About = () => {
                 src={job.logo}
                 alt={`${job.name} Logo`}
                 className={`mr-1 ${
-                  job.name === "Brilstack" ? "w-10 h-5" : "w-14 h-7"
+                  job.name === "Brilstack" ? "w-10 h-7" : "w-14 h-7"
                 }`}
               />
 
