@@ -64,9 +64,7 @@ const About = () => {
 
       {/* Experience */}
       <div className="pt-10">
-        <h1 className="pb-10 pt-6 pl-8 font-bold text-5xl underline">
-          Experience
-        </h1>
+        <h1 className="pb-10 pt-6 pl-8 font-bold text-5xl">Experience</h1>
 
         {[
           {
@@ -97,7 +95,7 @@ const About = () => {
             ],
           },
           {
-            name: "Airol",
+            name: "AiROL",
             logo: Airol,
             points: [
               "Collaborated on an identity door lock system using facial recognition (OpenCV).",
@@ -114,19 +112,16 @@ const About = () => {
               />
               <h3 className="text-2xl font-bold">{job.name}</h3>
             </div>
-            <div className="flex items-center mt-0 space-x-8 pl-48">
+            <div className="flex items-center mt-4 mb-4 space-x-8 pl-48">
               {/* Vertical Line with Bubbles */}
-              <div className="flex flex-col items-center">
+              <div className="relative flex flex-col items-center">
                 {/* Top Bubble */}
-                <div className="w-4 h-4 bg-gray-500 rounded-full mb-1"></div>
-
-                {/* Main Vertical Line */}
-                <div className="w-2 bg-gray-500 h-32 rounded-md"></div>
-
-                {/* Bottom Bubble */}
-                <div className="w-4 h-4 bg-gray-500 rounded-full mt-1"></div>
+                <div className="h-32 w-2 bg-gray-300 relative">
+                  {/* Top and Bottom Bubbles */}
+                  <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 w-5 h-5 bg-gray-300 rounded-full"></div>
+                  <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-5 h-5 bg-gray-300 rounded-full"></div>
+                </div>
               </div>
-
               <div className="font-semibold leading-7">
                 {job.points.map((point, i) => (
                   <div key={i} className="flex items-center">
