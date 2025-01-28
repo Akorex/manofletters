@@ -108,8 +108,11 @@ const About = () => {
               <img
                 src={job.logo}
                 alt={`${job.name} Logo`}
-                className="w-14 h-7 mr-1"
+                className={`mr-1 ${
+                  job.name === "Brilstack" ? "w-10 h-5" : "w-14 h-7"
+                }`}
               />
+
               <h3 className="text-2xl font-bold">{job.name}</h3>
             </div>
             <div className="flex items-center mt-4 mb-4 space-x-8 pl-28">
