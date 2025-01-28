@@ -120,10 +120,10 @@ const About = () => {
           </div>
         </div>
 
-        {/*IQube labs Logo and Name */}
+        {/* iQube Name and Logo */}
         <div className="flex items-center pl-8">
           <div className="flex items-center ">
-            <img src={iQube} alt="Hemify Logo" className="w-20 h-10 mr-52" />
+            <img src={iQube} alt="iQube Logo" className="w-14 h-7 mr-52" />
             <h3 className="text-2xl font-bold">iQube Labs</h3>
           </div>
         </div>
@@ -134,14 +134,14 @@ const About = () => {
 
           {/* Experience Text */}
           <div className="font-semibold leading-7">
-            <p>Built a generative language models corpus created in-house.</p>
+            <p>Built a generative language models corpus cretaed in-house</p>
             <p>
               Built a simple Trello API Clone with focus on authentication,
               Google Oauth, and CRUD operations.
             </p>
             <p>
-              Collaborated with the front-end team to implement new features and
-              resolve bugs within tight deadlines.
+              Collabarted with the front-end team to implement new features and
+              resolve bugs within tight deadlines
             </p>
           </div>
         </div>
