@@ -110,12 +110,23 @@ const About = () => {
               <img
                 src={job.logo}
                 alt={`${job.name} Logo`}
-                className="w-14 h-7 mr-52"
+                className="w-14 h-7 mr-20"
               />
               <h3 className="text-2xl font-bold">{job.name}</h3>
             </div>
-            <div className="flex items-center mt-0 space-x-8 pl-80">
-              <div className="h-32 w-px bg-gray-950"></div>
+            <div className="flex items-center mt-0 space-x-8 pl-48">
+              {/* Vertical Line with Bubbles */}
+              <div className="flex flex-col items-center">
+                {/* Top Bubble */}
+                <div className="w-4 h-4 bg-gray-500 rounded-full mb-1"></div>
+
+                {/* Main Vertical Line */}
+                <div className="w-2 bg-gray-500 h-32 rounded-md"></div>
+
+                {/* Bottom Bubble */}
+                <div className="w-4 h-4 bg-gray-500 rounded-full mt-1"></div>
+              </div>
+
               <div className="font-semibold leading-7">
                 {job.points.map((point, i) => (
                   <div key={i} className="flex items-center">
