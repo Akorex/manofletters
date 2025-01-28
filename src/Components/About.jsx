@@ -62,7 +62,9 @@ const About = () => {
       </div>
       {/* Experience */}
       <div className="pt-10">
-        <h1 className="pb-10 pt-6 pl-8 font-bold text-5xl">Experience </h1>
+        <h1 className="pb-10 pt-6 pl-8 font-bold text-5xl underline">
+          Experience{" "}
+        </h1>
 
         {/* Brilstack Name and Logo */}
         <div className="flex items-center pl-8">
@@ -138,6 +140,30 @@ const About = () => {
             <p>
               Collaborated with the front-end team to implement new features and
               resolve bugs within tight deadlines.
+            </p>
+          </div>
+        </div>
+        {/*Airol Logo and Name */}
+        <div className="flex items-center pl-8">
+          <div className="flex items-center ">
+            <img src={Airol} alt="Airol Logo" className="w-14 h-7 mr-52" />
+            <h3 className="text-2xl font-bold">Airol</h3>
+          </div>
+        </div>
+        {/* Vertical Line and Text Container */}
+        <div className="flex items-center mt-0 space-x-8 pl-80">
+          {/* Vertical Line */}
+          <div className="h-32 w-px bg-gray-950"></div>
+
+          {/* Experience Text */}
+          <div className="font-semibold leading-7">
+            <p>
+              Collaborated with other interns to build an identify door lock
+              system that uses facial recognition using OpenCV.
+            </p>
+            <p>
+              Worked with Arduino microcontrollers and built simple ML models
+              that could be run on them.
             </p>
           </div>
         </div>
