@@ -6,9 +6,9 @@ import Hemify from "../assets/Hemify.png";
 import iQube from "../assets/iqube.png";
 import Airol from "../assets/Airol.jpg";
 
-const BulletPoint = () => (
+const BulletPoint = ({ color }) => (
   <svg width="10" height="10" viewBox="0 0 10 10" className="mr-2">
-    <circle cx="5" cy="5" r="4" fill="black" />
+    <circle cx="5" cy="5" r="4" fill={color} />
   </svg>
 );
 
@@ -112,15 +112,12 @@ const About = () => {
                   job.name === "Brilstack" ? "w-10 h-7" : "w-14 h-7"
                 }`}
               />
-
               <h3 className="text-2xl font-bold">{job.name}</h3>
             </div>
             <div className="flex items-center mt-4 mb-4 space-x-8 pl-28">
               {/* Vertical Line with Bubbles */}
               <div className="relative flex flex-col items-center">
-                {/* Top Bubble */}
                 <div className="h-32 w-2 bg-gray-300 relative">
-                  {/* Top and Bottom Bubbles */}
                   <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 w-5 h-5 bg-gray-300 rounded-full"></div>
                   <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-5 h-5 bg-gray-300 rounded-full"></div>
                 </div>
@@ -128,7 +125,7 @@ const About = () => {
               <div className="font-semibold leading-7">
                 {job.points.map((point, i) => (
                   <div key={i} className="flex items-center">
-                    <BulletPoint />
+                    <BulletPoint color="gray" />
                     <p>{point}</p>
                   </div>
                 ))}
@@ -136,6 +133,23 @@ const About = () => {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* Brands I've Worked With */}
+      <div className="mt-16 pl-8 text-center">
+        <h2 className="text-2xl font-bold  pb-2">Brands I've Worked With</h2>
+        <div className="mt-6 text-lg font-medium">
+          <div className="flex space-x-6">
+            <p>Hemify</p>
+            <p>Brilstack</p>
+            <p>iQube Labs</p>
+          </div>
+          <div className="flex items-center mt-4 space-x-3">
+            <p>Airol</p>
+            <span className="text-gray-600 text-lg">→</span>
+            <p className="font-semibold">Logos</p>
+          </div>
+        </div>
       </div>
     </div>
   );
