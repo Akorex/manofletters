@@ -136,18 +136,45 @@ const About = () => {
       </div>
 
       {/* Brands I've Worked With */}
-      <div className="mt-16 pl-8 text-center">
-        <h2 className="text-2xl font-bold  pb-2">Brands I've Worked With</h2>
-        <div className="mt-6 text-lg font-medium">
-          <div className="flex space-x-6">
+      <div className="mt-16 flex flex-col items-center text-center">
+        <h2 className="text-2xl font-bold border-b-2 border-gray-500 pb-2 w-fit">
+          Brands I've Worked With
+        </h2>
+        <div className="mt-6 space-y-6">
+          {/* First Row of Logos */}
+
+          <div className="flex space-x-6 justify-center">
             <p>Hemify</p>
             <p>Brilstack</p>
             <p>iQube Labs</p>
           </div>
-          <div className="flex items-center mt-4 space-x-3">
-            <p>Airol</p>
-            <span className="text-gray-600 text-lg">→</span>
-            <p className="font-semibold">Logos</p>
+
+          {/* Airol with Arrow pointing to Logos */}
+          <div className="flex items-center space-x-6 justify-center">
+            <p>AiROL</p>
+            <span className="text-gray-600 text-3xl">→</span>
+            <div className="flex space-x-8 justify-center items-center">
+              <img
+                src={Hemify}
+                alt="Hemify Logo"
+                className="w-24 h-12 object-contain"
+              />
+              <img
+                src={Brilstack}
+                alt="Brilstack Logo"
+                className="w-24 h-12 object-contain"
+              />
+              <img
+                src={iQube}
+                alt="iQube Labs Logo"
+                className="w-24 h-12 object-contain"
+              />
+              <img
+                src={Airol}
+                alt="Airol Logo"
+                className="w-24 h-12 object-contain"
+              />
+            </div>
           </div>
         </div>
       </div>
