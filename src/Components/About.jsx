@@ -137,20 +137,16 @@ const About = () => {
 
       {/* Brands I've Worked With */}
       <div className="mt-16 flex flex-col items-center text-center">
-        <h2 className="text-2xl font-bold border-b-2 border-gray-500 pb-2 w-fit">
-          Brands I've Worked With
-        </h2>
-        <div className="mt-6 space-y-6">
-          {/* First Row of Logos */}
-
-          <div className="flex space-x-6 justify-center">
+        <h2 className="text-2xl font-bold  pb-2">Brands I've Worked With</h2>
+        <div className="mt-14 space-y-20">
+          <div className="flex space-x-48 justify-center font-semibold">
             <p>Hemify</p>
             <p>Brilstack</p>
             <p>iQube Labs</p>
           </div>
 
           {/* Airol with Arrow pointing to Logos */}
-          <div className="flex items-center space-x-6 justify-center">
+          <div className="flex items-center space-x-6 justify-center font-semibold">
             <p>AiROL</p>
             <span className="text-gray-600 text-3xl">→</span>
             <div className="flex space-x-8 justify-center items-center">
