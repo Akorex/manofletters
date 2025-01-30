@@ -17,7 +17,7 @@ const About = () => {
     <div className="bg-bgcolor min-h-screen flex flex-col px-6 py-12 md:px-24 ">
       {/* Header */}
       <div className="max-w-4xl">
-        <h1 className="pb-10 pt-6 pl-8 font-bold text-5xl font-mono ">About</h1>
+        <h1 className="pb-10 pt-6 pl-8 font-bold text-5xl font-mono">About</h1>
       </div>
 
       {/* Introduction */}
@@ -64,7 +64,7 @@ const About = () => {
 
       {/* Experience */}
       <div className="pt-10">
-        <h1 className="pb-10 pt-6 pl-8 font-bold text-5xl font-mono`">
+        <h1 className="pb-10 pt-6 pl-8 font-bold text-5xl font-mono">
           Experience
         </h1>
 
