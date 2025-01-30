@@ -64,7 +64,9 @@ const About = () => {
 
       {/* Experience */}
       <div className="pt-10">
-        <h1 className="pb-10 pt-6 pl-8 font-bold text-5xl">Experience</h1>
+        <h1 className="pb-10 pt-6 pl-8 font-bold text-5xl font-mono">
+          Experience
+        </h1>
 
         {[
           {
