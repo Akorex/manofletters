@@ -14,7 +14,7 @@ const BulletPoint = ({ color }) => (
 
 const About = () => {
   return (
-    <div className="bg-bgcolor min-h-screen flex flex-col px-6 py-12 md:px-24">
+    <div className="bg-bgcolor min-h-screen flex flex-col px-6 py-12 md:px-24 ">
       {/* Header */}
       <div className="max-w-4xl">
         <h1 className="pb-10 pt-6 pl-8 font-bold text-5xl ">About</h1>
@@ -104,7 +104,7 @@ const About = () => {
           },
         ].map((job, index) => (
           <div key={index}>
-            <div className="flex items-center pl-8">
+            <div className="flex items-center pl-8 font-mono">
               <img
                 src={job.logo}
                 alt={`${job.name} Logo`}
