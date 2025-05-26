@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import image from "../assets/cover.png";
 
+const imgLink =
+  "https://res.cloudinary.com/dlttdopsg/image/upload/f_auto,q_auto,w_800/v1748290096/PXL_20250112_182656168_hms1w8.jpg";
+
 const Hero = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between px-4 sm:px-6 md:px-16 py-8 sm:py-10 gap-6 sm:gap-8">
@@ -37,12 +40,14 @@ const Hero = () => {
       </div>
 
       {/* Image Section */}
-      <div className="w-full  lg:w-1/3 flex justify-center mt-4 sm:mt-5">
-        <img
-          src={image}
-          alt="Cover"
-          className="w-64 sm:w-80 md:w-96 lg:w-[28rem] rounded-lg object-cover"
-        />
+      <div className="w-full lg:w-1/3 flex justify-center mt-4 sm:mt-5">
+        <div className="w-64 sm:w-80 md:w-96 lg:w-[28rem] aspect-square rounded-2xl overflow-hidden">
+          <img
+            src={imgLink}
+            alt="Cover"
+            className="w-full h-full object-cover"
+          />
+        </div>
       </div>
     </div>
   );
